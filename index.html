@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/fontawesome.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
@@ -34,7 +35,8 @@
           </li>
         </ul>
         <button type="button" class="rounded-pill btn-rounded" href="tel:+919747777627">
-          +91 9747777627
+          
+          <a href="tel:+919747777627" >+91 9747777627</a>
           <span>
             <i class="fas fa-phone-alt"></i>
           </span>
@@ -149,9 +151,7 @@
       <div class="col-md-6">
         <div class="bg-white p-4 text-start">
           <p class="fw-light">
-            Lorem ipsum dolor sit amet consectetur architecto magni, 
-            dicta maxime laborum temporibus dolorem esse doloremque illo quas nisi enim molestias. 
-            Tempore ducimus molestiae in dolore enim.
+            what exactly is digital marketing, and what are the different types of digital marketing channels? We’re glad you asked. Digital marketing is any type of promotional activity done via the web. This includes anything in our list of marketing services
           </p>
         </div>
       </div>
@@ -167,7 +167,7 @@
           <div class="icon d-block fas fa-paper-plane"></div>
           <h3 class="display-3--title mt-1">Marketing</h3>
           <p class="lh-lg">
-            Dista solution offers professional  digital marketing services to enhance your business, specializing in SEO, SMM, PPC, Online Campaign, Search and Display Advertising, Email Campaign 
+            Levta solution offers professional  digital marketing services to enhance your business, specializing in SEO, SMM, PPC, Online Campaign, Search and Display Advertising, Email Campaign 
           </p>
           <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
             <span><i class="fas fa-arrow-right"></i></span>
@@ -192,7 +192,7 @@
           <div class="icon d-block fas fa-code"></div>
           <h3 class="display-3--title mt-1">web development</h3>
           <p class="lh-lg">
-            Dista is a premier web development company focussing on WordPress website development. We have been creating quality websites as per the requirements of our clients for the past 5 years. 
+            Levta is a premier web development company focussing on WordPress website development. We have been creating quality websites as per the requirements of our clients for the past 5 years. 
           </p>
           <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
             <span><i class="fas fa-arrow-right"></i></span>
@@ -395,7 +395,7 @@ Formed during the year 2017 April 1st and within a very limited period of time, 
       <h1 class="display-3 fw-bold text-capitalize">Get started</h1>
       <div class="heading-line"></div>
       <p class="lh-lg">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero illum architecto modi.
+        Like what you’ve seen so far? What you’ve seen on our website is only the tip of the iceberg! A lot of competitors visit our site, so we only share a limited amount of detail, information and case studies. If you want to see more, contact us directly. Even if you don’t end up hiring us, you’ll walk away with at least 2-3 insights to measurably improve your online marketing performance.
       </p>
     </div>
 
@@ -405,7 +405,7 @@ Formed during the year 2017 April 1st and within a very limited period of time, 
         <div class="cta-info w-100">
           <h4 class="display-4 fw-bold">100% Satisfaction Guaranteed</h4>
           <p class="lh-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam alias optio minima, tempore architecto sint ipsam dolore tempora facere laboriosam corrupti!
+           
           </p>
           <h3 class="display-3--brief">What will be the next step?</h3>
           <ul class="cta-info__list">
@@ -418,30 +418,42 @@ Formed during the year 2017 April 1st and within a very limited period of time, 
       <div class="col-12 col-lg-6 bg-white shadow p-3">
         <div class="form w-100 pb-2">
           <h4 class="display-3--title mb-5">start your project</h4>
-          <form action="#" class="row">
+          <form  class="row"method="POST" id= "g-form"action="https://script.google.com/macros/s/AKfycbwfM9dgxJq-kRdC15tbN7n1RZNzaPyw5Nl7yvC8kjmY6Kew8cdcyNhe9LZL-VizD788/exec" autocomplete="off" name="google-sheet">
             <div class="col-lg-6 col-md mb-3">
-              <input type="text" placeholder="First Name" id="inputFirstName" class="shadow form-control form-control-lg">
+              <input type="text" placeholder="First Name"name="First name" id="inputFirstName" class="shadow form-control form-control-lg">
             </div>
             <div class="col-lg-6 col-md mb-3">
-              <input type="text" placeholder="Last Name" id="inputLastName" class="shadow form-control form-control-lg">
+              <input type="text" placeholder="Last Name"name="Last Name" id="inputLastName" class="shadow form-control form-control-lg">
             </div>
             <div class="col-lg-12 mb-3">
-              <input type="email" placeholder="email address" id="inputEmail" class="shadow form-control form-control-lg">
+              <input type="email" placeholder="email address" name="email address"id="inputEmail" class="shadow form-control form-control-lg">
             </div>
             <div class="col-lg-12 mb-3">
-              <textarea name="message" placeholder="message" id="message" rows="8" class="shadow form-control form-control-lg"></textarea>
+              <textarea name="message" placeholder="message" name="message" id="message" rows="8" class="shadow form-control form-control-lg"></textarea>
             </div>
             <div class="text-center d-grid mt-1">
-              <button type="button" class="btn btn-primary rounded-pill pt-3 pb-3">
+              <button type="button" class="btn btn-primary rounded-pill pt-3 pb-3 " name="submit" value="Login"  >
                 submit
                 <i class="fas fa-paper-plane"></i>
               </button>
             </div>
+
           </form>
         </div>
       </div>
     </div>
   </div>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwfM9dgxJq-kRdC15tbN7n1RZNzaPyw5Nl7yvC8kjmY6Kew8cdcyNhe9LZL-VizD788/exec'
+    const form = document.forms['google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
 </section>
 
 <!-- ///////////////////////////////////////////////////////////////////////////////////////////
@@ -477,7 +489,7 @@ Formed during the year 2017 April 1st and within a very limited period of time, 
           </svg>
         </div>
         <div class="contact-box__info">
-          <a href="mailto:akhil@gmail.com" class="contact-box__info--title">contact@levta.in</a>
+          <a href="mailto:contact@levta.in" class="contact-box__info--title">contact@levta.in</a>
           <p class="contact-box__info--subtitle">Online support</p>
         </div>
       </div>
@@ -494,8 +506,8 @@ Formed during the year 2017 April 1st and within a very limited period of time, 
           </svg>
         </div>
         <div class="contact-box__info">
-          <a href="#" class="contact-box__info--title">New York, USA</a>
-          <p class="contact-box__info--subtitle">NY 10012, US</p>
+          <a href="#" class="contact-box__info--title">kollam, Kerala</a>
+          <p class="contact-box__info--subtitle">Karunagappally , IN</p>
         </div>
       </div>
     </div>
@@ -520,7 +532,7 @@ Formed during the year 2017 April 1st and within a very limited period of time, 
   </div>
 
   <!-- START THE CONTENT FOR THE CAMPANY INFO -->
-  <div class="container mt-5">
+  <!--<div class="container mt-5">
     <div class="row text-white justify-content-center mt-3 pb-3">
       <div class="col-12 col-sm-6 col-lg-6 mx-auto">
         <h5 class="text-capitalize fw-bold">Levta </h5>
@@ -566,7 +578,7 @@ Formed during the year 2017 April 1st and within a very limited period of time, 
       <div class="row text-center text-white">
         <div class="col-12">
           <div class="footer-bottom__copyright">
-            &COPY; Copyright 2022 <a href="#">levta</a> | Created by <a href="#" target="_blank">tevca</a><br><br>
+            &COPY; Copyright 2022 <a href="#">levta</a> | made with <a href="#" target="_blank">tevca</a><br><br>
 
       
           </div>
@@ -598,5 +610,16 @@ Formed during the year 2017 April 1st and within a very limited period of time, 
     
     </script>
      <script src="assets/js/bootstrap.bundle.min.js"></script>
+     <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwfM9dgxJq-kRdC15tbN7n1RZNzaPyw5Nl7yvC8kjmY6Kew8cdcyNhe9LZL-VizD788/exec'
+      const form = document.forms['google-sheet']
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
 </body>
 </html>
